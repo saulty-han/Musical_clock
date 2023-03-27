@@ -5,25 +5,66 @@
 body {
     margin: 0;
 }
-
-.button40{
-    width: 40px;
-    height: 40px;
-    font-size: 20px;
-    font-style: Arial rgb(249, 247, 247);
-    background-color:transparent;
-    border: none;
-    border-radius:50%; 
-
+ul{list-style:none; margin:0; padding:0;}
+.wrap{
+	width:1024px;
+	height:auto;
+	margin:0 auto;
 }
+.top{
+	width:1024px;
+	height:125px;
+	float:left;
+	background:url(../../images/T-bg_01.png);
+	background-repeat:repeat-x;
+}
+.logo{
+	width:404px;
+	height:125px;
+	float:left;
+	margin-left:94px;
+}
+.nav{
+	width:300px;
+	height:18px;
+	float:left;
+	margin-top:58px;
+	margin-left:20px;
+}
+.nav li{float:left;}
+.nav li a{
+	font-family:"黑体";
+	font-size:12px;
+	line-height:18px;
+	display:block;
+	width:60px;
+	text-align:center;
+	color:#3d3935;
+	text-decoration:none;
+}
+.nav li a:hover{
+	color:#F00;
+}
+.s_btn{
+	width:36px;
+	height:39px;
+	float:left;
+	background:url(../../images/s-1.png) no-repeat;
+	margin-top:40px;
+	margin-left:20px;
+}
+.box0{width:1024px; height:560px; float:left; background-color:#ac977e;}
+.box3{width:1024px; height:360px; float:left; background-color:#d4c7b7;}
+.foot{width:1024px; height:55px; float:left; background:#ac977e;}
+.backTop{width:27px; height:25px; float:right; margin-right:38px; margin-top:11px;} 
+
 .button20{
-    width: 20px;
-    height: 20px;
     font-size: 20px;
     font-style: Arial rgb(249, 247, 247);
     background-color:transparent;
     border: none;
-    border-radius:50%; 
+    margin-left: 0px;
+
 }
 #it22 {
     background-image: url('../../images/boom.jpg');
@@ -82,7 +123,7 @@ body {
 .img-little{
     width: 90%;
     max-height: 100%;
-    margin-left: 90px;
+    margin-left: 0px;
 }
 
 .fdb-block img {
